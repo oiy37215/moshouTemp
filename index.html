@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+О╩©<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>ceshi</title>
+    <title>Ф╣▀Х╞∙</title>
     <link rel="icon" type="image/GIF" href="res/favicon.ico"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="full-screen" content="yes"/>
@@ -20,16 +20,20 @@
     </style>
 </head>
 <body style="padding:0; margin: 0; background: #000;">
-	 <div style="display:none"><img src="/res/CloseNormal.png" alt=""/></div>
+	 <div style="width:100%;height:100%;overflow:auto; z-index:-10;position:absolute;">
+
+    <img style=" z-index: -10;" src="res/CloseNormal.png" height="0" width="0" />
+
+		</div>
 <canvas id="gameCanvas" width="800" height="450"></canvas>
 
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script>
     window.shareData = {
-        title: "дЦк╣сп╤Ют╤╧Ж╤Ют╤ё╛╬м╠П╫пнр╩ью╢ё╛рРн╙нрря╬╜╧Ж╣цл╚т╤ак...", // ╥жоМ╠ЙлБ
-        link:  "http://game.html5youxi.com/201501/ydygdy/", // ╥жоМа╢╫с
-        imgUrl: 'http://game.html5youxi.com/201501/ydygdy/icon.png', // ╥жоМм╪╠Й
-        desc : "дЦк╣сп╤Ют╤╧Ж╤Ют╤ё╛╬м╠П╫пнр╩ью╢ё╛рРн╙нрря╬╜╧Ж╣цл╚т╤ак..."
+        title: "Д╫═Х╞╢Ф°┴Е╓ Х©°Ф╩ Е╓ Х©°О╪▄Е╟╠Е┬╚Е▐╚Ф┬▒Е⌡·Ф²╔О╪▄Е⌡═Д╦╨Ф┬▒Е╥╡Г╩▐Ф╩ Е╬≈Е╓╙Х©°Д╨├...", // Е┬├Д╨╚Ф═┤И╒≤
+        link:  "http://game.html5youxi.com/201501/ydygdy/", // Е┬├Д╨╚И⌠╬Ф▌╔
+        imgUrl: 'http://game.html5youxi.com/201501/ydygdy/icon.png', // Е┬├Д╨╚Е⌡╬Ф═┤
+        desc : "Д╫═Х╞╢Ф°┴Е╓ Х©°Ф╩ Е╓ Х©°О╪▄Е╟╠Е┬╚Е▐╚Ф┬▒Е⌡·Ф²╔О╪▄Е⌡═Д╦╨Ф┬▒Е╥╡Г╩▐Ф╩ Е╬≈Е╓╙Х©°Д╨├..."
     };
 </script>
 <script>
@@ -80,18 +84,18 @@
   */
  /*
         window.wxData = {
-            "appId": "wxc000894c65dd9f3c", // ╥ЧнЯ╨е©иртлНп╢appId
+            "appId": "wxc000894c65dd9f3c", // Ф°█Е┼║Е▐╥Е▐╞Д╩╔Е║╚Е├≥appId
             "imgUrl":'http://app9.download.anzhuoshangdian.com/cat/icon.png',
             "link":'http://app9.download.anzhuoshangdian.com/cat/',
-            "desc":"вН╫Эн╒пек╒фа╣дсно╥ё╛ъВ╣дл╚╪Закё╛©Лю╢╦пйэоб╟и",
-            "title":"вН╫Эн╒пек╒фа╣дсно╥ё╛ъВ╣дл╚╪Закё╛©Лю╢╦пйэоб╟и"
+            "desc":"Ф°─Х©▒Е╬╝Д©║Е┬╥Е╠▐Г └Ф╦╦Ф┬▐О╪▄Е√╣Г └Е╓╙Х╢╠Д╨├О╪▄Е©╚Ф²╔Ф└÷Е▐≈Д╦▀Е░╖",
+            "title":"Ф°─Х©▒Е╬╝Д©║Е┬╥Е╠▐Г └Ф╦╦Ф┬▐О╪▄Е√╣Г └Е╓╙Х╢╠Д╨├О╪▄Е©╚Ф²╔Ф└÷Е▐≈Д╦▀Е░╖"
         };
         window.wxFriend = {
-            "appId": "wxc000894c65dd9f3c", // ╥ЧнЯ╨е©иртлНп╢appId
+            "appId": "wxc000894c65dd9f3c", // Ф°█Е┼║Е▐╥Е▐╞Д╩╔Е║╚Е├≥appId
             "imgUrl":'http://app9.download.anzhuoshangdian.com/cat/icon.png',
             "link":'http://app9.download.anzhuoshangdian.com/cat/',
-            "desc":'вН╫Эн╒пек╒фа╣дсно╥ё╛ъВ╣дл╚╪Закё╛©Лю╢╦пйэоб╟и',
-            "title":"вН╫Эн╒пек╒фа╣дсно╥║╤ю╢втъВпг╣ддЦ║╥ё╛ъВ╣дл╚╪Закё╛©Лю╢╦пйэоб╟и"
+            "desc":'Ф°─Х©▒Е╬╝Д©║Е┬╥Е╠▐Г └Ф╦╦Ф┬▐О╪▄Е√╣Г └Е╓╙Х╢╠Д╨├О╪▄Е©╚Ф²╔Ф└÷Е▐≈Д╦▀Е░╖',
+            "title":"Ф°─Х©▒Е╬╝Д©║Е┬╥Е╠▐Г └Ф╦╦Ф┬▐Ц─┼Ф²╔Х┤╙Е√╣Ф≤÷Г └Д╫═Ц─▀О╪▄Е√╣Г └Е╓╙Х╢╠Д╨├О╪▄Е©╚Ф²╔Ф└÷Е▐≈Д╦▀Е░╖"
         };
         WeixinApi.ready(function(Api) {
             var wxCallbacks = {
