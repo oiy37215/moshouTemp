@@ -21,11 +21,70 @@
 </head>
 <body style="padding:0; margin: 0; background: #000;">
 <canvas id="gameCanvas" width="800" height="450"></canvas>
-<script src="common.js"></script>
+
 
 <script cocos src="game.min.js"></script>
 <script>
-alert("kkkkkkk");	
+       // var imgUrl = 'http://27.131.221.248/lapp/icbc02/img/share.jpg';
+alert("hello");
+		var imgUrl = 'http://philips.idser.cn/js/logo.jpg';
+        var lineLink = window.location.href;
+        var shareTitle = '飞常金喜贺新春';
+        var appid = '';
+        var desc1 = '飞常金喜贺新春';
+        var desc2 = '';
+         //"desc": desc1 + num + desc2,
+        function shareFriend() {
+          //var num = bigSc// $('#resultcont').text();
+            WeixinJSBridge.invoke('sendAppMessage',{
+                "appid": appid,
+                "img_url": imgUrl,
+                "img_width": "200",
+                "img_height": "200",
+                "link": lineLink,
+                "desc": desc1  + desc2,
+                "title": shareTitle
+            }, function(res) {
+                //_report('send_msg', res.err_msg);
+            })
+        }
+        function shareTimeline(num) {
+	     // var num = bigSc// $('#resultcont').text();
+            WeixinJSBridge.invoke('shareTimeline',{
+                "img_url": imgUrl,
+                "img_width": "200",
+                "img_height": "200",
+                "link": lineLink,
+                "desc": desc1   + desc2,
+                "title": desc1  + desc2
+            }, function(res) {
+                   //_report('timeline', res.err_msg);
+            });
+        }
+        function shareWeibo() {
+           // var num = bigSc// $('#resultcont').text();
+            WeixinJSBridge.invoke('shareWeibo',{
+                "content": desc1  + desc2,
+                "url": lineLink,
+            }, function(res) {
+                //_report('weibo', res.err_msg);
+            });
+        }
+        // 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            // 发送给好友
+            WeixinJSBridge.on('menu:share:appmessage', function(argv){
+                shareFriend();
+            });
+            // 分享到朋友圈
+            WeixinJSBridge.on('menu:share:timeline', function(argv){
+                shareTimeline();
+            });
+            // 分享到微博
+            WeixinJSBridge.on('menu:share:weibo', function(argv){
+                shareWeibo();
+            });
+        }, false);
 </script>
 </body>
 </html>
