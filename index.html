@@ -53,21 +53,7 @@
         alert("checkJsApi fail!!");
       }
     });
-    WeixinJSBridge.on('menu:share:appmessage', function(argv){
-                WeixinJSBridge.invoke('sendAppMessage',{
-                "appid": appid,
-                "img_url": imgUrl,
-                "img_width": "200",
-                "img_height": "200",
-                "link": lineLink,
-                "desc": desc1  + desc2,
-                "title": shareTitle
-            }, function(res) {
-                //_report('send_msg', res.err_msg);
-            })
-                alert("friend");
-            });
-    /*
+    
   // 2. 分享接口
   // 2.1 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口
     wx.onMenuShareAppMessage({
@@ -89,7 +75,7 @@
         alert(JSON.stringify(res));
       }
     });
-    */
+    
 
 });
 
