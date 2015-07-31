@@ -21,68 +21,62 @@
 </head>
 <body style="padding:0; margin: 0; background: #000;">
 <canvas id="gameCanvas" width="800" height="450"></canvas>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+	
+  wx.config({
+      debug: true,
+      appId: 'wxc000894c65dd9f3c',
+      timestamp: 1438238387,
+      nonceStr: 'helloworldhello',
+      signature: 'ec17bc5e1545f6c60de27ce43604cd4ab2b4e0ce',
+      jsApiList: [
+      'checkJsApi',
+      'onMenuShareAppMessage'
+      ]
+  });
+  wx.ready(function () {
+  	alert("hello");
+  	 wx.checkJsApi({
+      jsApiList: [
+        'onMenuShareAppMessage'
+      ],
+      success: function (res) {
+        alert(JSON.stringify(res));
+      },
+      fail: function (res) {
+        alert("checkJsApi fail!!");
+      }
+    });
+  // 2. 分享接口
+  // 2.1 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口
+    wx.onMenuShareAppMessage({
+      title: '互联网之子',
+      desc: '在长大的过程中，我才慢慢发现，我身边的所有事，别人跟我说的所有事，那些所谓本来如此，注定如此的事，它们其实没有非得如此，事情是可以改变的。更重要的是，有些事既然错了，那就该做出改变。',
+      link: 'http://h5.ccnec.com/weixintest04/',
+      imgUrl: 'http://h5.ccnec.com/weixintest04/res/CloseSelected.png',
+      trigger: function (res) {
+        // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+        alert('用户点击发送给朋友');
+      },
+      success: function (res) {
+        alert('已分享');
+      },
+      cancel: function (res) {
+        alert('已取消');
+      },
+      fail: function (res) {
+        alert(JSON.stringify(res));
+      }
+    });
 
+});
+
+wx.error(function (res) {
+  alert(res.errMsg);
+});
+</script>
 
 <script cocos src="game.min.js"></script>
-<script>
-       // var imgUrl = 'http://27.131.221.248/lapp/icbc02/img/share.jpg';
-		var imgUrl = 'http://oiy37215.github.io/game/gh-pages/res/CloseNormal.png';
-        var lineLink = http://oiy37215.github.io/game;
-        var shareTitle = '飞常金喜贺新春';
-        var appid = '';
-        var desc1 = '飞常金喜贺新春';
-        var desc2 = '';
-         //"desc": desc1 + num + desc2,
-        function shareFriend() {
-          //var num = bigSc// $('#resultcont').text();
-            WeixinJSBridge.invoke('sendAppMessage',{
-                "appid": appid,
-                "img_url": imgUrl,
-                "img_width": "200",
-                "img_height": "200",
-                "link": lineLink,
-                "desc": desc1  + desc2,
-                "title": shareTitle
-            }, function(res) {
-                //_report('send_msg', res.err_msg);
-            })
-        }
-        function shareTimeline(num) {
-	     // var num = bigSc// $('#resultcont').text();
-            WeixinJSBridge.invoke('shareTimeline',{
-                "img_url": imgUrl,
-                "img_width": "200",
-                "img_height": "200",
-                "link": lineLink,
-                "desc": desc1   + desc2,
-                "title": desc1  + desc2
-            }, function(res) {
-                   //_report('timeline', res.err_msg);
-            });
-        }
-        function shareWeibo() {
-           // var num = bigSc// $('#resultcont').text();
-            WeixinJSBridge.invoke('shareWeibo',{
-                "content": desc1  + desc2,
-                "url": lineLink,
-            }, function(res) {
-                //_report('weibo', res.err_msg);
-            });
-        }
-        // 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
-            // 发送给好友
-            WeixinJSBridge.on('menu:share:appmessage', function(argv){
-                shareFriend();
-                alert("friend");
-            });
-            // 分享到朋友圈
-            WeixinJSBridge.on('menu:share:timeline', function(argv){
-                shareTimeline();
-            });
-            // 分享到微博
-            WeixinJSBridge.on('menu:share:weibo', function(argv){
-                shareWeibo();
-            });
-</script>
 </body>
 </html>
