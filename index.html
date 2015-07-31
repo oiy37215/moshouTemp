@@ -23,6 +23,7 @@
 <canvas id="gameCanvas" width="800" height="450"></canvas>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script>
+	
 
   wx.config({
       debug: true,
@@ -35,18 +36,21 @@
       'onMenuShareAppMessage'
       ]
   });
+  wx.ready(function () {
   
-  	function func(){
-
-				wx.ready(function () {
-  	 		wx.checkJsApi({
-     			 jsApiList: [
-      		  'onMenuShareAppMessage'
-     		 ],
-     		 success: function (res) {
-      		  alert(JSON.stringify(res));
-     		 }
-   			 });
+  	 wx.checkJsApi({
+      jsApiList: [
+        'onMenuShareAppMessage'
+      ],
+      success: function (res) {
+        alert(JSON.stringify(res));
+      },
+      fail: function (res) {
+        alert("checkJsApi fail!!");
+      }
+    });
+    
+   
   // 2. 分享接口
   // 2.1 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口
     wx.onMenuShareAppMessage({
@@ -68,15 +72,12 @@
         alert(JSON.stringify(res));
       }
     });
-
+    
 });
 
 wx.error(function (res) {
   alert(res.errMsg);
 });
-	}
-	setTimeout(func,5000); 
-
 </script>
 
 <script cocos src="game.min.js"></script>
