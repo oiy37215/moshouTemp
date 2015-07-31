@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -23,8 +23,6 @@
 <canvas id="gameCanvas" width="800" height="450"></canvas>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script>
-	
-
   wx.config({
       debug: true,
       appId: 'wxc000894c65dd9f3c',
@@ -32,54 +30,41 @@
       nonceStr: 'helloworldhello',
       signature: 'ec17bc5e1545f6c60de27ce43604cd4ab2b4e0ce',
       jsApiList: [
-      'checkJsApi',
-      'onMenuShareAppMessage'
+        'onMenuShareAppMessage'
       ]
   });
   wx.ready(function () {
-  
-  	 wx.checkJsApi({
-      jsApiList: [
-        'onMenuShareAppMessage'
-      ],
-      success: function (res) {
-        alert(JSON.stringify(res));
-      },
-      fail: function (res) {
-        alert("checkJsApi fail!!");
-      }
-    });
-    
-   
-  // 2. ·ÖÏí½Ó¿Ú
-  // 2.1 ¼àÌı¡°·ÖÏí¸øÅóÓÑ¡±£¬°´Å¥µã»÷¡¢×Ô¶¨Òå·ÖÏíÄÚÈİ¼°·ÖÏí½á¹û½Ó¿Ú
+  // 2. åˆ†äº«æ¥å£
+  // 2.1 ç›‘å¬â€œåˆ†äº«ç»™æœ‹å‹â€ï¼ŒæŒ‰é’®ç‚¹å‡»ã€è‡ªå®šä¹‰åˆ†äº«å†…å®¹åŠåˆ†äº«ç»“æœæ¥å£
     wx.onMenuShareAppMessage({
-      title: '»¥ÁªÍøÖ®×Ó',
-      desc: 'ÔÚ³¤´óµÄ¹ı³ÌÖĞ£¬ÎÒ²ÅÂıÂı·¢ÏÖ£¬ÎÒÉí±ßµÄËùÓĞÊÂ£¬±ğÈË¸úÎÒËµµÄËùÓĞÊÂ£¬ÄÇĞ©ËùÎ½±¾À´Èç´Ë£¬×¢¶¨Èç´ËµÄÊÂ£¬ËüÃÇÆäÊµÃ»ÓĞ·ÇµÃÈç´Ë£¬ÊÂÇéÊÇ¿ÉÒÔ¸Ä±äµÄ¡£¸üÖØÒªµÄÊÇ£¬ÓĞĞ©ÊÂ¼ÈÈ»´íÁË£¬ÄÇ¾Í¸Ã×ö³ö¸Ä±ä¡£',
+      title: 'äº’è”ç½‘ä¹‹å­',
+      desc: 'åœ¨é•¿å¤§çš„è¿‡ç¨‹ä¸­ï¼Œæˆ‘æ‰æ…¢æ…¢å‘ç°ï¼Œæˆ‘èº«è¾¹çš„æ‰€æœ‰äº‹ï¼Œåˆ«äººè·Ÿæˆ‘è¯´çš„æ‰€æœ‰äº‹ï¼Œé‚£äº›æ‰€è°“æœ¬æ¥å¦‚æ­¤ï¼Œæ³¨å®šå¦‚æ­¤çš„äº‹ï¼Œå®ƒä»¬å…¶å®æ²¡æœ‰éå¾—å¦‚æ­¤ï¼Œäº‹æƒ…æ˜¯å¯ä»¥æ”¹å˜çš„ã€‚æ›´é‡è¦çš„æ˜¯ï¼Œæœ‰äº›äº‹æ—¢ç„¶é”™äº†ï¼Œé‚£å°±è¯¥åšå‡ºæ”¹å˜ã€‚',
       link: 'http://h5.ccnec.com/weixintest04/',
       imgUrl: 'http://h5.ccnec.com/weixintest04/res/CloseSelected.png',
       trigger: function (res) {
-        // ²»Òª³¢ÊÔÔÚtriggerÖĞÊ¹ÓÃajaxÒì²½ÇëÇóĞŞ¸Ä±¾´Î·ÖÏíµÄÄÚÈİ£¬ÒòÎª¿Í»§¶Ë·ÖÏí²Ù×÷ÊÇÒ»¸öÍ¬²½²Ù×÷£¬ÕâÊ±ºòÊ¹ÓÃajaxµÄ»Ø°ü»á»¹Ã»ÓĞ·µ»Ø
-        alert('ÓÃ»§µã»÷·¢ËÍ¸øÅóÓÑ');
+        // ä¸è¦å°è¯•åœ¨triggerä¸­ä½¿ç”¨ajaxå¼‚æ­¥è¯·æ±‚ä¿®æ”¹æœ¬æ¬¡åˆ†äº«çš„å†…å®¹ï¼Œå› ä¸ºå®¢æˆ·ç«¯åˆ†äº«æ“ä½œæ˜¯ä¸€ä¸ªåŒæ­¥æ“ä½œï¼Œè¿™æ—¶å€™ä½¿ç”¨ajaxçš„å›åŒ…ä¼šè¿˜æ²¡æœ‰è¿”å›
+        alert('ç”¨æˆ·ç‚¹å‡»å‘é€ç»™æœ‹å‹');
       },
       success: function (res) {
-        alert('ÒÑ·ÖÏí');
+        alert('å·²åˆ†äº«');
       },
       cancel: function (res) {
-        alert('ÒÑÈ¡Ïû');
+        alert('å·²å–æ¶ˆ');
       },
       fail: function (res) {
         alert(JSON.stringify(res));
       }
     });
-    
+
 });
 
 wx.error(function (res) {
   alert(res.errMsg);
 });
+
 </script>
 
 <script cocos src="game.min.js"></script>
+
 </body>
 </html>
