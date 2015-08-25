@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<project name="Javascript compress project" basedir="D:\cocos\EditBox" default="compile">
+<project name="Javascript compress project" basedir="D:\cocos\huanZhuangBianJiQi" default="compile">
 
     <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
-             classpath="D:\cocosjs-3.5\cocos2d-js-v3.5\tools\cocos2d-console\plugins\project_compile\build_web/bin/compiler-1.7.jar"/>
+             classpath="D:\cocos2d-x-3.7.1\tools\cocos2d-console\plugins\project_compile\build_web/bin/compiler-1.7.jar"/>
 
     <target name="compile">
         <jscomp compilationLevel="simple" 
                 warning="quiet"
                 debug="false" 
-                output="D:\cocos\EditBox\publish\html5/game.min.js"
+                output="D:\cocos\huanZhuangBianJiQi\publish\html5/game.min.js"
                 languagein="ECMASCRIPT5"
                 
                 >
-            <sources dir="D:\cocos\EditBox\frameworks\cocos2d-html5">
+            <sources dir="D:\cocos\huanZhuangBianJiQi\frameworks\cocos2d-html5">
                 <file name="CCBoot.js"/>
                 <file name="CCDebugger.js"/>
                 <file name="cocos2d/core/utils/BinaryLoader.js"/>

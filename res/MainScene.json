@@ -1,0 +1,2081 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.2.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 369.8987,
+              "Y": 424.128
+            },
+            "Scale": {
+              "ScaleX": 0.7532,
+              "ScaleY": 0.375
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4624,
+              "Y": 0.8836
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 52.8987,
+            "RightMargin": 113.1013,
+            "TopMargin": 8.872,
+            "BottomMargin": 377.128,
+            "Tag": 15,
+            "ActionTag": 1779150893,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "输入ExportJson文件：如sq",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 345.039,
+              "Y": 424.6715
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4313,
+              "Y": 0.8847
+            },
+            "PreSize": {
+              "X": 0.5,
+              "Y": 0.05
+            },
+            "LeftMargin": 145.039,
+            "RightMargin": 254.961,
+            "TopMargin": 43.3285,
+            "BottomMargin": 412.6715,
+            "Tag": 10,
+            "ActionTag": 982943347,
+            "Size": {
+              "X": 400.0,
+              "Y": 24.0
+            },
+            "Name": "TextField_1",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "确定",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 652.4888,
+              "Y": 425.8949
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8156,
+              "Y": 0.8873
+            },
+            "PreSize": {
+              "X": 0.0875,
+              "Y": 0.0833
+            },
+            "LeftMargin": 617.4888,
+            "RightMargin": 112.5112,
+            "TopMargin": 34.1051,
+            "BottomMargin": 405.8949,
+            "Tag": 17,
+            "ActionTag": -1214782431,
+            "Size": {
+              "X": 70.0,
+              "Y": 40.0
+            },
+            "Name": "Button_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 85.616,
+              "Y": 317.5637
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.107,
+              "Y": 0.6616
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -231.384,
+            "RightMargin": 397.384,
+            "TopMargin": 115.4363,
+            "BottomMargin": 270.5637,
+            "Tag": 19,
+            "ActionTag": 451617820,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "左肩",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 84.9635,
+              "Y": 317.5637
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1062,
+              "Y": 0.6616
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 34.9635,
+            "RightMargin": 665.0365,
+            "TopMargin": 152.4363,
+            "BottomMargin": 307.5637,
+            "Tag": 20,
+            "ActionTag": -856314382,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 85.616,
+              "Y": 278.5353
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.107,
+              "Y": 0.5803
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -231.384,
+            "RightMargin": 397.384,
+            "TopMargin": 154.4647,
+            "BottomMargin": 231.5353,
+            "Tag": 21,
+            "ActionTag": 1662814994,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "右肩",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 84.9635,
+              "Y": 278.5353
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1062,
+              "Y": 0.5803
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 34.9635,
+            "RightMargin": 665.0365,
+            "TopMargin": 191.4647,
+            "BottomMargin": 268.5353,
+            "Tag": 22,
+            "ActionTag": 1167346355,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 85.6162,
+              "Y": 242.6776
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.107,
+              "Y": 0.5056
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -231.3838,
+            "RightMargin": 397.3838,
+            "TopMargin": 190.3224,
+            "BottomMargin": 195.6776,
+            "Tag": 23,
+            "ActionTag": -1746149932,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "右手",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 84.9636,
+              "Y": 242.6774
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1062,
+              "Y": 0.5056
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 34.9636,
+            "RightMargin": 665.0364,
+            "TopMargin": 227.3226,
+            "BottomMargin": 232.6774,
+            "Tag": 24,
+            "ActionTag": -1177415744,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 85.6161,
+              "Y": 208.4223
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.107,
+              "Y": 0.4342
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -231.3839,
+            "RightMargin": 397.3839,
+            "TopMargin": 224.5777,
+            "BottomMargin": 161.4223,
+            "Tag": 25,
+            "ActionTag": 706225370,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "左手",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 84.9637,
+              "Y": 208.4223
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1062,
+              "Y": 0.4342
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 34.9637,
+            "RightMargin": 665.0363,
+            "TopMargin": 261.5777,
+            "BottomMargin": 198.4223,
+            "Tag": 26,
+            "ActionTag": 192251787,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 85.6161,
+              "Y": 173.0481
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.107,
+              "Y": 0.3605
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -231.3839,
+            "RightMargin": 397.3839,
+            "TopMargin": 259.9519,
+            "BottomMargin": 126.0481,
+            "Tag": 27,
+            "ActionTag": 1374068663,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "刀",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 84.9635,
+              "Y": 173.4973
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1062,
+              "Y": 0.3615
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 34.9635,
+            "RightMargin": 665.0365,
+            "TopMargin": 296.5027,
+            "BottomMargin": 163.4973,
+            "Tag": 28,
+            "ActionTag": 2070107955,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 85.616,
+              "Y": 137.0161
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.107,
+              "Y": 0.2855
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -231.384,
+            "RightMargin": 397.384,
+            "TopMargin": 295.9839,
+            "BottomMargin": 90.0161,
+            "Tag": 29,
+            "ActionTag": -1395541337,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "腰带",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 84.9637,
+              "Y": 137.4654
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1062,
+              "Y": 0.2864
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 34.9637,
+            "RightMargin": 665.0363,
+            "TopMargin": 332.5346,
+            "BottomMargin": 127.4654,
+            "Tag": 30,
+            "ActionTag": 1674674415,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0_0_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 85.6161,
+              "Y": 102.932
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.107,
+              "Y": 0.2144
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -231.3839,
+            "RightMargin": 397.3839,
+            "TopMargin": 330.068,
+            "BottomMargin": 55.932,
+            "Tag": 31,
+            "ActionTag": 1025356600,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "胸甲",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 84.9635,
+              "Y": 103.3813
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1062,
+              "Y": 0.2154
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 34.9635,
+            "RightMargin": 665.0365,
+            "TopMargin": 366.6187,
+            "BottomMargin": 93.3813,
+            "Tag": 32,
+            "ActionTag": -2137144378,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0_0_0_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.3169,
+              "Y": 317.5637
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8216,
+              "Y": 0.6616
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 340.3169,
+            "RightMargin": -174.3169,
+            "TopMargin": 115.4363,
+            "BottomMargin": 270.5637,
+            "Tag": 33,
+            "ActionTag": 1309451259,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0_0_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "左脚",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.3169,
+              "Y": 317.5629
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8216,
+              "Y": 0.6616
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 607.3169,
+            "RightMargin": 92.6831,
+            "TopMargin": 152.4371,
+            "BottomMargin": 307.5629,
+            "Tag": 34,
+            "ActionTag": 665138541,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0_0_0_0_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.3169,
+              "Y": 278.5353
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8216,
+              "Y": 0.5803
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 340.3169,
+            "RightMargin": -174.3169,
+            "TopMargin": 154.4647,
+            "BottomMargin": 231.5353,
+            "Tag": 35,
+            "ActionTag": 1698212777,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0_0_0_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "右脚",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.3169,
+              "Y": 278.5348
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8216,
+              "Y": 0.5803
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 607.3169,
+            "RightMargin": 92.6831,
+            "TopMargin": 191.4652,
+            "BottomMargin": 268.5348,
+            "Tag": 36,
+            "ActionTag": 931247015,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0_0_0_0_0_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.3169,
+              "Y": 242.6776
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8216,
+              "Y": 0.5056
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 340.3169,
+            "RightMargin": -174.3169,
+            "TopMargin": 190.3224,
+            "BottomMargin": 195.6776,
+            "Tag": 37,
+            "ActionTag": -1191368226,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0_0_0_0_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "披风",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.3169,
+              "Y": 242.6778
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8216,
+              "Y": 0.5056
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 607.3169,
+            "RightMargin": 92.6831,
+            "TopMargin": 227.3222,
+            "BottomMargin": 232.6778,
+            "Tag": 38,
+            "ActionTag": -2089120328,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0_0_0_0_0_0_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "左肩",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.9606,
+              "Y": 317.8876
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.225,
+              "Y": 0.6623
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 154.9606,
+            "RightMargin": 595.0394,
+            "TopMargin": 147.1124,
+            "BottomMargin": 302.8876,
+            "Tag": 40,
+            "ActionTag": 2015047222,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "右肩",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.9606,
+              "Y": 278.9344
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.225,
+              "Y": 0.5811
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 154.9606,
+            "RightMargin": 595.0394,
+            "TopMargin": 186.0656,
+            "BottomMargin": 263.9344,
+            "Tag": 41,
+            "ActionTag": 1452041950,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_0",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "右手",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.9606,
+              "Y": 242.9027
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.225,
+              "Y": 0.506
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 154.9606,
+            "RightMargin": 595.0394,
+            "TopMargin": 222.0973,
+            "BottomMargin": 227.9027,
+            "Tag": 42,
+            "ActionTag": 887977656,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "左手",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.9606,
+              "Y": 208.4223
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.225,
+              "Y": 0.4342
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 154.9606,
+            "RightMargin": 595.0394,
+            "TopMargin": 256.5777,
+            "BottomMargin": 193.4223,
+            "Tag": 43,
+            "ActionTag": -2053082964,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "刀",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.9606,
+              "Y": 172.7864
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.225,
+              "Y": 0.36
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 154.9606,
+            "RightMargin": 595.0394,
+            "TopMargin": 292.2136,
+            "BottomMargin": 157.7864,
+            "Tag": 44,
+            "ActionTag": -617519055,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "腰带",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.9606,
+              "Y": 134.8069
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.225,
+              "Y": 0.2808
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 154.9606,
+            "RightMargin": 595.0394,
+            "TopMargin": 330.1931,
+            "BottomMargin": 119.8069,
+            "Tag": 45,
+            "ActionTag": -1387132084,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "胸甲",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.9606,
+              "Y": 101.6965
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.225,
+              "Y": 0.2119
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 154.9606,
+            "RightMargin": 595.0394,
+            "TopMargin": 363.3035,
+            "BottomMargin": 86.6965,
+            "Tag": 46,
+            "ActionTag": -1878607146,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "左脚",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 754.4417,
+              "Y": 318.8616
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9431,
+              "Y": 0.6643
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 729.4417,
+            "RightMargin": 20.5583,
+            "TopMargin": 146.1384,
+            "BottomMargin": 303.8616,
+            "Tag": 47,
+            "ActionTag": -1538535154,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_6",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "右脚",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 754.4417,
+              "Y": 279.908
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9431,
+              "Y": 0.5831
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 729.4417,
+            "RightMargin": 20.5583,
+            "TopMargin": 185.092,
+            "BottomMargin": 264.908,
+            "Tag": 48,
+            "ActionTag": -1824656660,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_7",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "披风",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 754.4417,
+              "Y": 242.9024
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9431,
+              "Y": 0.506
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 729.4417,
+            "RightMargin": 20.5583,
+            "TopMargin": 222.0976,
+            "BottomMargin": 227.9024,
+            "Tag": 49,
+            "ActionTag": -426921151,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_8",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 205.7745,
+              "Y": 366.6662
+            },
+            "Scale": {
+              "ScaleX": 0.5574,
+              "ScaleY": 0.3027
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2572,
+              "Y": 0.7639
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -111.2255,
+            "RightMargin": 277.2255,
+            "TopMargin": 66.3338,
+            "BottomMargin": 319.6662,
+            "Tag": 58,
+            "ActionTag": -404609532,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 18,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "换装需要先加载plist,如:sq0",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 198.6696,
+              "Y": 366.6589
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2483,
+              "Y": 0.7639
+            },
+            "PreSize": {
+              "X": 0.375,
+              "Y": 0.0417
+            },
+            "LeftMargin": 48.6696,
+            "RightMargin": 451.3304,
+            "TopMargin": 103.3411,
+            "BottomMargin": 356.6589,
+            "Tag": 59,
+            "ActionTag": -225314896,
+            "Size": {
+              "X": 300.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_1_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "确定",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 418.7506,
+              "Y": 364.9666
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5234,
+              "Y": 0.7603
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 393.7506,
+            "RightMargin": 356.2494,
+            "TopMargin": 100.0334,
+            "BottomMargin": 349.9666,
+            "Tag": 60,
+            "ActionTag": 1387650343,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_9",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "box_public_019.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.3169,
+              "Y": 208.4223
+            },
+            "Scale": {
+              "ScaleX": 0.1787,
+              "ScaleY": 0.2995
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8216,
+              "Y": 0.4342
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 340.3169,
+            "RightMargin": -174.3169,
+            "TopMargin": 224.5777,
+            "BottomMargin": 161.4223,
+            "Tag": 38,
+            "ActionTag": -184844784,
+            "Size": {
+              "X": 634.0,
+              "Y": 94.0
+            },
+            "Name": "box_public_019_5_0_0_0_0_0_0_0_0_0_0_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "盾牌",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 657.3169,
+              "Y": 208.4223
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8216,
+              "Y": 0.4342
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0417
+            },
+            "LeftMargin": 607.3169,
+            "RightMargin": 92.6831,
+            "TopMargin": 261.5777,
+            "BottomMargin": 198.4223,
+            "Tag": 39,
+            "ActionTag": -307371085,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "TextField_3_0_0_0_0_0_0_0_0_0_0",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "盾牌",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_g.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_y.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "button_public_001_n.png",
+              "Plist": "public_dengLu.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 92,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 756.3884,
+              "Y": 205.5726
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9455,
+              "Y": 0.4283
+            },
+            "PreSize": {
+              "X": 0.0625,
+              "Y": 0.0625
+            },
+            "LeftMargin": 731.3884,
+            "RightMargin": 18.6116,
+            "TopMargin": 259.4274,
+            "BottomMargin": 190.5726,
+            "Tag": 50,
+            "ActionTag": 1623084416,
+            "Size": {
+              "X": 50.0,
+              "Y": 30.0
+            },
+            "Name": "Button_2_0_8_0",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 800.0,
+          "Y": 480.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "public_dengLu.plist",
+        "public_dengLu.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
