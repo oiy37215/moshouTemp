@@ -1,0 +1,517 @@
+{
+  "ID": "46259ff2-6611-4884-bf41-a997fac2f2c6",
+  "Version": "2.3.2.0",
+  "Name": "MenuScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 30,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "1010start.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 31,
+            "ActionTag": 1237789280,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "疯狂模式.png",
+              "Plist": "1010.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "疯狂模式.png",
+              "Plist": "1010.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "疯狂模式.png",
+              "Plist": "1010.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 291,
+            "Scale9Height": 117,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 325.3284,
+              "Y": 450.2292
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5083,
+              "Y": 0.3963
+            },
+            "PreSize": {
+              "X": 0.5016,
+              "Y": 0.1224
+            },
+            "LeftMargin": 164.8284,
+            "RightMargin": 154.1716,
+            "TopMargin": 616.2708,
+            "BottomMargin": 380.7292,
+            "Tag": 37,
+            "ActionTag": 1190447880,
+            "Size": {
+              "X": 321.0,
+              "Y": 139.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "经典模式.png",
+              "Plist": "1010.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "经典模式.png",
+              "Plist": "1010.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "经典模式.png",
+              "Plist": "1010.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 291,
+            "Scale9Height": 117,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 325.1884,
+              "Y": 674.2371
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5081,
+              "Y": 0.5935
+            },
+            "PreSize": {
+              "X": 0.5016,
+              "Y": 0.1224
+            },
+            "LeftMargin": 164.6884,
+            "RightMargin": 154.3116,
+            "TopMargin": 392.2629,
+            "BottomMargin": 604.7371,
+            "Tag": 39,
+            "ActionTag": 1963620617,
+            "Size": {
+              "X": 321.0,
+              "Y": 139.0
+            },
+            "Name": "Button_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "声音.png",
+              "Plist": "1010.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "声音.png",
+              "Plist": "1010.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "声音.png",
+              "Plist": "1010.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 90,
+            "Scale9Height": 99,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 113.2148,
+              "Y": 168.6211
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1769,
+              "Y": 0.1484
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1065
+            },
+            "LeftMargin": 53.2148,
+            "RightMargin": 466.7852,
+            "TopMargin": 906.8789,
+            "BottomMargin": 108.1211,
+            "Tag": 40,
+            "ActionTag": 278733049,
+            "Size": {
+              "X": 120.0,
+              "Y": 121.0
+            },
+            "Name": "Button_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fenxiang.png",
+              "Plist": "1010.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fenxiang.png",
+              "Plist": "1010.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fenxiang.png",
+              "Plist": "1010.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 90,
+            "Scale9Height": 99,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 251.6018,
+              "Y": 169.2487
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3931,
+              "Y": 0.149
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1065
+            },
+            "LeftMargin": 191.6018,
+            "RightMargin": 328.3982,
+            "TopMargin": 906.2513,
+            "BottomMargin": 108.7487,
+            "Tag": 41,
+            "ActionTag": 1343727574,
+            "Size": {
+              "X": 120.0,
+              "Y": 121.0
+            },
+            "Name": "Button_5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zan.png",
+              "Plist": "1010.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zan.png",
+              "Plist": "1010.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zan.png",
+              "Plist": "1010.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 90,
+            "Scale9Height": 99,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 396.7527,
+              "Y": 169.2592
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6199,
+              "Y": 0.149
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1065
+            },
+            "LeftMargin": 336.7527,
+            "RightMargin": 183.2473,
+            "TopMargin": 906.2408,
+            "BottomMargin": 108.7592,
+            "Tag": 42,
+            "ActionTag": -1981214381,
+            "Size": {
+              "X": 120.0,
+              "Y": 121.0
+            },
+            "Name": "Button_6",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "jiangbei.png",
+              "Plist": "1010.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "jiangbei.png",
+              "Plist": "1010.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "jiangbei.png",
+              "Plist": "1010.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 90,
+            "Scale9Height": 99,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 535.63,
+              "Y": 170.5138
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8369,
+              "Y": 0.1501
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.1065
+            },
+            "LeftMargin": 475.63,
+            "RightMargin": 44.37,
+            "TopMargin": 904.9862,
+            "BottomMargin": 110.0138,
+            "Tag": 43,
+            "ActionTag": -369345866,
+            "Size": {
+              "X": 120.0,
+              "Y": 121.0
+            },
+            "Name": "Button_7",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "1010.plist",
+        "1010.png",
+        "1010start.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
