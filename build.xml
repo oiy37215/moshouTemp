@@ -303,6 +303,7 @@
                 <file name="src/app.js"/>
                 <file name="src/Enemy.js"/>
                 <file name="src/GameConfig.js"/>
+                <file name="src/JiaoSeSprite.js"/>
                 <file name="main.js"/>
 
             </sources>
