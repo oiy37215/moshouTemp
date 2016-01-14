@@ -300,20 +300,7 @@
             </sources>
             <sources dir="${basedir}">
                 <file name="src/resource.js"/>
-                <file name="src/MainScene.js"/>
-                <file name="src/BeiBaoLayer.js"/>
-                <file name="src/ChengJiuLayer.js"/>
-                <file name="src/JiNengLayer.js"/>
-                <file name="src/ZhuangBeiSprite.js"/>
-                <file name="src/BaoGeLayer.js"/>
-                <file name="src/JiNengShuoMing.js"/>
                 <file name="src/GameConfig.js"/>
-                <file name="src/MeiRiQianDao.js"/>
-                <file name="src/ShopLayer.js"/>
-                <file name="src/FuBenLayer.js"/>
-                <file name="src/JieSuanLayer.js"/>
-                <file name="src/XuanRenScene.js"/>
-                <file name="src/ZbXinXiLayer.js"/>
                 <file name="src/ZhanDouXiTong/ZhanDouScene.js"/>
                 <file name="src/ZhanDouXiTong/ZhanDouUILayer.js"/>
                 <file name="src/ZhanDouXiTong/JiNengKuangSprite.js"/>
