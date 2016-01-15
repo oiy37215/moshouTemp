@@ -300,17 +300,14 @@
             </sources>
             <sources dir="${basedir}">
                 <file name="src/resource.js"/>
-                <file name="src/GameConfig.js"/>
-                <file name="src/ZhanDouXiTong/ZhanDouScene.js"/>
-                <file name="src/ZhanDouXiTong/ZhanDouUILayer.js"/>
-                <file name="src/ZhanDouXiTong/JiNengKuangSprite.js"/>
-                <file name="src/ZhanDouXiTong/RockerSprite.js"/>
-                <file name="src/jiaoSeANDguaiWu/JiaoSeSprite.js"/>
-                <file name="src/jiaoSeANDguaiWu/Enemy.js"/>
-                <file name="src/jiaoSeANDguaiWu/sqJiNengLuoJi.js"/>
-                <file name="src/jiaoSeANDguaiWu/ymrJiNengLuoJi.js"/>
-                <file name="src/jiaoSeANDguaiWu/fsJiNengLuoJi.js"/>
+                <file name="src/app.js"/>
                 <file name="src/LoadingLayer.js"/>
+                <file name="src/ZhanDouScene.js"/>
+                <file name="src/ZhanDouUILayer.js"/>
+                <file name="src/GameConfig.js"/>
+                <file name="src/JiaoSeSprite.js"/>
+                <file name="src/JiNengKuangSprite.js"/>
+                <file name="src/RockerSprite.js"/>
                 <file name="main.js"/>
 
             </sources>
