@@ -308,6 +308,7 @@
                 <file name="src/JiaoSeSprite.js"/>
                 <file name="src/JiNengKuangSprite.js"/>
                 <file name="src/RockerSprite.js"/>
+                <file name="src/Enemy.js"/>
                 <file name="main.js"/>
 
             </sources>
