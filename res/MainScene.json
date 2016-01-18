@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "ID": "0d6ba548-f9df-4c67-8273-e45e3c62d988",
   "Version": "2.3.2.0",
@@ -1152,4 +1153,1160 @@
     }
   },
   "Type": "Scene"
+=======
+{
+  "ID": "0d6ba548-f9df-4c67-8273-e45e3c62d988",
+  "Version": "2.3.2.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 8,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_jm.png",
+              "Plist": "wupin.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 11,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "zhu_baoshi_background.png",
+                  "Plist": "wupin.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 716.6646,
+                  "Y": 594.4017
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7465,
+                  "Y": 0.9288
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 648.6646,
+                "RightMargin": 175.3354,
+                "TopMargin": 23.0983,
+                "BottomMargin": 571.9017,
+                "Tag": 14,
+                "ActionTag": 1175034421,
+                "Size": {
+                  "X": 136.0,
+                  "Y": 45.0
+                },
+                "Name": "zhu_baoshi_background_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "zhu_money_background.png",
+                  "Plist": "wupin.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 863.0685,
+                  "Y": 594.2758
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.899,
+                  "Y": 0.9286
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 798.0685,
+                "RightMargin": 31.9315,
+                "TopMargin": 23.7242,
+                "BottomMargin": 572.2758,
+                "Tag": 16,
+                "ActionTag": 1265649152,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 44.0
+                },
+                "Alpha": 253,
+                "Name": "zhu_money_background_5",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "zhu_shangcheng_background.png",
+                  "Plist": "wupin.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.515,
+                  "ScaleY": 0.8134
+                },
+                "Position": {
+                  "X": 97.7903,
+                  "Y": 458.9737
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "Rotation": -13.1448,
+                "RotationSkewX": -13.1448,
+                "RotationSkewY": -13.1361,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1019,
+                  "Y": 0.7171
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 7.1503,
+                "RightMargin": 776.8497,
+                "TopMargin": 159.5673,
+                "BottomMargin": 365.4327,
+                "Tag": 17,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "zhu_shop_name.png",
+                      "Plist": "wupin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 84.7532,
+                      "Y": 65.0803
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4816,
+                      "Y": 0.5659
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 44.2532,
+                    "RightMargin": 50.7468,
+                    "TopMargin": 36.4197,
+                    "BottomMargin": 51.5803,
+                    "Tag": 123,
+                    "ActionTag": -1515680372,
+                    "Size": {
+                      "X": 81.0,
+                      "Y": 27.0
+                    },
+                    "Name": "zhu_shop_name_1",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1954622536,
+                "Size": {
+                  "X": 176.0,
+                  "Y": 115.0
+                },
+                "Name": "zhu_shangcheng_background_6",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1389788401,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "zhu_jm_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_back_button.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_back_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_back_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 45,
+            "Scale9Height": 30,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 74.8458,
+              "Y": 591.3066
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.078,
+              "Y": 0.9239
+            },
+            "PreSize": {
+              "X": 0.0781,
+              "Y": 0.0812
+            },
+            "LeftMargin": 37.3458,
+            "RightMargin": 847.6542,
+            "TopMargin": 22.6934,
+            "BottomMargin": 565.3066,
+            "Tag": 10,
+            "ActionTag": 1617089536,
+            "Size": {
+              "X": 75.0,
+              "Y": 52.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_open_button.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_open_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_open_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 9,
+            "Scale9Width": 42,
+            "Scale9Height": 10,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 111.2242,
+              "Y": 400.5706
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Rotation": -13.2733,
+            "RotationSkewX": -13.2733,
+            "RotationSkewY": -13.2744,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1159,
+              "Y": 0.6259
+            },
+            "PreSize": {
+              "X": 0.075,
+              "Y": 0.0437
+            },
+            "LeftMargin": 75.2242,
+            "RightMargin": 812.7758,
+            "TopMargin": 225.4294,
+            "BottomMargin": 386.5706,
+            "Tag": 18,
+            "ActionTag": 2025152797,
+            "Size": {
+              "X": 72.0,
+              "Y": 28.0
+            },
+            "Name": "Button_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_tiaozhan_button3.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_tiaozhan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_tiaozhan_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 50,
+            "Scale9Height": 55,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 865.5932,
+              "Y": 177.9577
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9017,
+              "Y": 0.2781
+            },
+            "PreSize": {
+              "X": 0.0833,
+              "Y": 0.1203
+            },
+            "LeftMargin": 825.5932,
+            "RightMargin": 54.4068,
+            "TopMargin": 423.5423,
+            "BottomMargin": 139.4577,
+            "Tag": 19,
+            "ActionTag": -198573421,
+            "Size": {
+              "X": 80.0,
+              "Y": 77.0
+            },
+            "Name": "Button_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_zhengzhan_button3.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_zhengzhan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_zhengzhan_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 46,
+            "Scale9Height": 55,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 871.5961,
+              "Y": 87.2893
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9079,
+              "Y": 0.1364
+            },
+            "PreSize": {
+              "X": 0.0792,
+              "Y": 0.1203
+            },
+            "LeftMargin": 833.5961,
+            "RightMargin": 50.4039,
+            "TopMargin": 514.2107,
+            "BottomMargin": 48.7893,
+            "Tag": 20,
+            "ActionTag": 27865108,
+            "Size": {
+              "X": 76.0,
+              "Y": 77.0
+            },
+            "Name": "Button_5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_ditu.png",
+              "Plist": "wupin.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 468.8203,
+              "Y": 277.3389
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4884,
+              "Y": 0.4333
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 162.8203,
+            "RightMargin": 185.1797,
+            "TopMargin": 168.6611,
+            "BottomMargin": 83.3389,
+            "Tag": 190,
+            "ActionTag": 1378542161,
+            "Size": {
+              "X": 612.0,
+              "Y": 388.0
+            },
+            "Name": "zhu_ditu_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 121,
+            "Scale9Height": 74,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 462.0032,
+              "Y": 445.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4813,
+              "Y": 0.6953
+            },
+            "PreSize": {
+              "X": 0.1573,
+              "Y": 0.15
+            },
+            "LeftMargin": 386.5032,
+            "RightMargin": 422.4968,
+            "TopMargin": 146.9999,
+            "BottomMargin": 397.0001,
+            "Tag": 4,
+            "ActionTag": 1625776287,
+            "Size": {
+              "X": 151.0,
+              "Y": 96.0
+            },
+            "Name": "Button_2_0_0",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 121,
+            "Scale9Height": 74,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 364.0031,
+              "Y": 444.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3792,
+              "Y": 0.6938
+            },
+            "PreSize": {
+              "X": 0.1573,
+              "Y": 0.15
+            },
+            "LeftMargin": 288.5031,
+            "RightMargin": 520.4969,
+            "TopMargin": 147.9999,
+            "BottomMargin": 396.0001,
+            "Tag": 5,
+            "ActionTag": 623133300,
+            "Size": {
+              "X": 151.0,
+              "Y": 96.0
+            },
+            "Name": "Button_2_0",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_caidan_button2.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 121,
+            "Scale9Height": 74,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 266.0024,
+              "Y": 444.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2771,
+              "Y": 0.6938
+            },
+            "PreSize": {
+              "X": 0.1573,
+              "Y": 0.15
+            },
+            "LeftMargin": 190.5024,
+            "RightMargin": 618.4976,
+            "TopMargin": 147.9999,
+            "BottomMargin": 396.0001,
+            "Tag": 6,
+            "ActionTag": -46636079,
+            "Size": {
+              "X": 151.0,
+              "Y": 96.0
+            },
+            "Name": "Button_1_0_0",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_bb_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9Width": 42,
+            "Scale9Height": 41,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 264.4654,
+              "Y": 447.6844
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2755,
+              "Y": 0.6995
+            },
+            "PreSize": {
+              "X": 0.0437,
+              "Y": 0.0641
+            },
+            "LeftMargin": 243.4654,
+            "RightMargin": 674.5346,
+            "TopMargin": 171.8156,
+            "BottomMargin": 427.1844,
+            "Tag": 232,
+            "ActionTag": -1494337666,
+            "Size": {
+              "X": 42.0,
+              "Y": 41.0
+            },
+            "Name": "Image_5",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_skill_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9Width": 45,
+            "Scale9Height": 42,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 359.8727,
+              "Y": 451.9031
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3749,
+              "Y": 0.7061
+            },
+            "PreSize": {
+              "X": 0.0469,
+              "Y": 0.0656
+            },
+            "LeftMargin": 337.3727,
+            "RightMargin": 577.6273,
+            "TopMargin": 167.0969,
+            "BottomMargin": 430.9031,
+            "Tag": 233,
+            "ActionTag": -1454292487,
+            "Size": {
+              "X": 45.0,
+              "Y": 42.0
+            },
+            "Name": "Image_6",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "zhu_chengjiu_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9Width": 45,
+            "Scale9Height": 43,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 462.9805,
+              "Y": 451.4609
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4823,
+              "Y": 0.7054
+            },
+            "PreSize": {
+              "X": 0.0469,
+              "Y": 0.0672
+            },
+            "LeftMargin": 440.4805,
+            "RightMargin": 474.5195,
+            "TopMargin": 167.0391,
+            "BottomMargin": 429.9609,
+            "Tag": 234,
+            "ActionTag": 1102690987,
+            "Size": {
+              "X": 45.0,
+              "Y": 43.0
+            },
+            "Name": "Image_7",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 16,
+            "LabelText": "0",
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 878.9367,
+              "Y": 595.5363
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9156,
+              "Y": 0.9305
+            },
+            "PreSize": {
+              "X": 0.0667,
+              "Y": 0.025
+            },
+            "LeftMargin": 846.9367,
+            "RightMargin": 49.0633,
+            "TopMargin": 36.4637,
+            "BottomMargin": 587.5363,
+            "Tag": 60,
+            "ActionTag": 1039753920,
+            "Size": {
+              "X": 64.0,
+              "Y": 16.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 48,
+            "ButtonText": "每日签到",
+            "TextColor": {
+              "G": 165,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_mukuang.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_mukuang.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_mukuang.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 350,
+            "Scale9Height": 105,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 90.5479,
+              "Y": 164.0637
+            },
+            "Scale": {
+              "ScaleX": 0.454,
+              "ScaleY": 0.6256
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0943,
+              "Y": 0.2563
+            },
+            "PreSize": {
+              "X": 0.3958,
+              "Y": 0.1984
+            },
+            "LeftMargin": -99.4521,
+            "RightMargin": 679.4521,
+            "TopMargin": 412.4363,
+            "BottomMargin": 100.5637,
+            "Tag": 44,
+            "ActionTag": 1537214262,
+            "Size": {
+              "X": 380.0,
+              "Y": 127.0
+            },
+            "Name": "Button_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 48,
+            "ButtonText": "结算界面",
+            "TextColor": {
+              "G": 165,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_mukuang.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_mukuang.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_mukuang.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 350,
+            "Scale9Height": 105,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 90.5479,
+              "Y": 90.3077
+            },
+            "Scale": {
+              "ScaleX": 0.454,
+              "ScaleY": 0.6256
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0943,
+              "Y": 0.1411
+            },
+            "PreSize": {
+              "X": 0.3958,
+              "Y": 0.1984
+            },
+            "LeftMargin": -99.4521,
+            "RightMargin": 679.4521,
+            "TopMargin": 486.1923,
+            "BottomMargin": 26.8077,
+            "Tag": 45,
+            "ActionTag": 2081124878,
+            "Size": {
+              "X": 380.0,
+              "Y": 127.0
+            },
+            "Name": "Button_2_1",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "wupin.plist",
+        "wupin.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+>>>>>>> 0ae325a560bb49973a61ac35d931bd404a0c13fc
 }

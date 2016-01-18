@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "ID": "429f75d8-f039-43c6-aec6-ff24d451233d",
   "Version": "2.3.2.0",
@@ -735,4 +736,743 @@
     }
   },
   "Type": "Scene"
+=======
+{
+  "ID": "429f75d8-f039-43c6-aec6-ff24d451233d",
+  "Version": "2.3.2.0",
+  "Name": "chengJiuScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 66,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_cjjm_kuangjia.png",
+              "Plist": "wupin.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 470.058,
+              "Y": 256.2149
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4896,
+              "Y": 0.4003
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 210.058,
+            "RightMargin": 229.942,
+            "TopMargin": 249.2851,
+            "BottomMargin": 121.7149,
+            "Tag": 226,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_cjbt.png",
+                  "Plist": "wupin.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 269.8725,
+                  "Y": 252.2035
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.519,
+                  "Y": 0.9376
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 178.8725,
+                "RightMargin": 159.1275,
+                "TopMargin": -17.2035,
+                "BottomMargin": 218.2035,
+                "Tag": 227,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "cj_ach.png",
+                      "Plist": "wupin.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 95.8671,
+                      "Y": 41.428
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5267,
+                      "Y": 0.6092
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 52.8671,
+                    "RightMargin": 43.1329,
+                    "TopMargin": 17.072,
+                    "BottomMargin": 31.928,
+                    "Tag": 228,
+                    "ActionTag": -1864327291,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 19.0
+                    },
+                    "Name": "cj_ach_13",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1510910219,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 68.0
+                },
+                "Name": "cj_cjbt_12",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1461575438,
+            "Size": {
+              "X": 520.0,
+              "Y": 269.0
+            },
+            "Name": "cj_cjjm_kuangjia_11_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_front_button.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_front_button.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_front_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 4,
+            "Scale9OriginY": 5,
+            "Scale9Width": 6,
+            "Scale9Height": 7,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 511.5488,
+              "Y": 141.2268
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5329,
+              "Y": 0.2207
+            },
+            "PreSize": {
+              "X": 0.0146,
+              "Y": 0.0266
+            },
+            "LeftMargin": 504.5488,
+            "RightMargin": 441.4512,
+            "TopMargin": 490.2732,
+            "BottomMargin": 132.7268,
+            "Tag": 127,
+            "ActionTag": -1049012050,
+            "Size": {
+              "X": 14.0,
+              "Y": 17.0
+            },
+            "Name": "Button_12_0",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_cj_back_button.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_cj_back_button.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_cj_back_button.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 4,
+            "Scale9OriginY": 5,
+            "Scale9Width": 6,
+            "Scale9Height": 7,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 456.7944,
+              "Y": 141.2929
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4758,
+              "Y": 0.2208
+            },
+            "PreSize": {
+              "X": 0.0146,
+              "Y": 0.0266
+            },
+            "LeftMargin": 449.7944,
+            "RightMargin": 496.2056,
+            "TopMargin": 490.2071,
+            "BottomMargin": 132.7929,
+            "Tag": 128,
+            "ActionTag": -867066308,
+            "Size": {
+              "X": 14.0,
+              "Y": 17.0
+            },
+            "Name": "Button_16",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 254.0,
+              "Y": 313.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2646,
+              "Y": 0.4891
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.0781
+            },
+            "LeftMargin": 254.0,
+            "RightMargin": 256.0,
+            "TopMargin": 277.0,
+            "BottomMargin": 313.0,
+            "Tag": 100,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_cjbz_guai.png",
+                  "Plist": "wupin.plist"
+                },
+                "Scale9Width": 69,
+                "Scale9Height": 60,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.1435,
+                  "Y": 21.3365
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1048,
+                  "Y": 0.4267
+                },
+                "PreSize": {
+                  "X": 0.0719,
+                  "Y": 0.0938
+                },
+                "LeftMargin": 12.6435,
+                "RightMargin": 368.3565,
+                "TopMargin": -1.3365,
+                "BottomMargin": -8.6635,
+                "Tag": 104,
+                "ActionTag": -999812123,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 60.0
+                },
+                "Name": "Image_26_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "击杀怪物数量",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 104.6147,
+                  "Y": 26.9343
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2325,
+                  "Y": 0.5387
+                },
+                "PreSize": {
+                  "X": 0.5111,
+                  "Y": 0.4
+                },
+                "LeftMargin": 104.6147,
+                "RightMargin": 115.3853,
+                "TopMargin": 13.0657,
+                "BottomMargin": 16.9343,
+                "Tag": 105,
+                "ActionTag": 1670126252,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 20.0
+                },
+                "Name": "Text_1_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_get_jiangli_button_3.png",
+                  "Plist": "wupin.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_get_jiangli_buton2.png",
+                  "Plist": "wupin.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_get_jiangli_button.png",
+                  "Plist": "wupin.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 70,
+                "Scale9Height": 17,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 346.6058,
+                  "Y": 8.6375
+                },
+                "Scale": {
+                  "ScaleX": 0.7822,
+                  "ScaleY": 0.8209
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7702,
+                  "Y": 0.1727
+                },
+                "PreSize": {
+                  "X": 0.1042,
+                  "Y": 0.0609
+                },
+                "LeftMargin": 346.6058,
+                "RightMargin": 3.3942,
+                "TopMargin": 2.3625,
+                "BottomMargin": 8.6375,
+                "Tag": 106,
+                "ActionTag": -1639188229,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 39.0
+                },
+                "Name": "Button_8_0",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -2134713061,
+            "Size": {
+              "X": 450.0,
+              "Y": 50.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 254.0,
+              "Y": 259.1703
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2646,
+              "Y": 0.405
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.0781
+            },
+            "LeftMargin": 254.0,
+            "RightMargin": 256.0,
+            "TopMargin": 330.8297,
+            "BottomMargin": 259.1703,
+            "Tag": 107,
+            "ActionTag": 212489241,
+            "Size": {
+              "X": 450.0,
+              "Y": 50.0
+            },
+            "Name": "Panel_1_0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 254.0,
+              "Y": 205.3989
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2646,
+              "Y": 0.3209
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.0781
+            },
+            "LeftMargin": 254.0,
+            "RightMargin": 256.0,
+            "TopMargin": 384.6011,
+            "BottomMargin": 205.3989,
+            "Tag": 111,
+            "ActionTag": -2067590580,
+            "Size": {
+              "X": 450.0,
+              "Y": 50.0
+            },
+            "Name": "Panel_1_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 254.0,
+              "Y": 151.863
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2646,
+              "Y": 0.2373
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.0781
+            },
+            "LeftMargin": 254.0,
+            "RightMargin": 256.0,
+            "TopMargin": 438.137,
+            "BottomMargin": 151.863,
+            "Tag": 115,
+            "ActionTag": -241382232,
+            "Size": {
+              "X": 450.0,
+              "Y": 50.0
+            },
+            "Name": "Panel_1_2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 16,
+            "LabelText": "1/5",
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 482.5395,
+              "Y": 140.944
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5026,
+              "Y": 0.2202
+            },
+            "PreSize": {
+              "X": 0.0312,
+              "Y": 0.025
+            },
+            "LeftMargin": 467.5395,
+            "RightMargin": 462.4605,
+            "TopMargin": 491.056,
+            "BottomMargin": 132.944,
+            "Tag": 75,
+            "ActionTag": 944279,
+            "Size": {
+              "X": 30.0,
+              "Y": 16.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "wupin.plist",
+        "wupin.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+>>>>>>> 0ae325a560bb49973a61ac35d931bd404a0c13fc
 }
