@@ -1,0 +1,555 @@
+{
+  "ID": "142d9c25-7134-49f7-b0d9-69249709a268",
+  "Version": "2.3.2.0",
+  "Name": "Layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 53,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_bg.png",
+              "Plist": "wupin.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 54,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "fuben_mukuang.png",
+                  "Plist": "wupin.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 481.9669,
+                  "Y": 99.7265
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.502,
+                  "Y": 0.1558
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 291.9669,
+                "RightMargin": 288.0331,
+                "TopMargin": 476.7735,
+                "BottomMargin": 36.2265,
+                "Tag": 55,
+                "ActionTag": -1152874377,
+                "Size": {
+                  "X": 380.0,
+                  "Y": 127.0
+                },
+                "Name": "fuben_mukuang_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "fuben_gulou.png",
+                  "Plist": "wupin.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.588,
+                  "Y": 504.4891
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4985,
+                  "Y": 0.7883
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 362.088,
+                "RightMargin": 364.912,
+                "TopMargin": 54.5109,
+                "BottomMargin": 423.4891,
+                "Tag": 56,
+                "ActionTag": 871487456,
+                "Size": {
+                  "X": 233.0,
+                  "Y": 162.0
+                },
+                "Name": "fuben_gulou_4",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1248181833,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "fuben_bg_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_back_button_close.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_back_button_open.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_back_button_close.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 45,
+            "Scale9Height": 30,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 56.5191,
+              "Y": 591.6586
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0589,
+              "Y": 0.9245
+            },
+            "PreSize": {
+              "X": 0.0781,
+              "Y": 0.0812
+            },
+            "LeftMargin": 19.0191,
+            "RightMargin": 865.981,
+            "TopMargin": 22.3414,
+            "BottomMargin": 565.6586,
+            "Tag": 4,
+            "ActionTag": 430120060,
+            "Size": {
+              "X": 75.0,
+              "Y": 52.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_back.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_back.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_back.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 11,
+            "Scale9OriginY": 11,
+            "Scale9Width": 13,
+            "Scale9Height": 47,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 229.9045,
+              "Y": 308.2463
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2395,
+              "Y": 0.4816
+            },
+            "PreSize": {
+              "X": 0.0365,
+              "Y": 0.1078
+            },
+            "LeftMargin": 212.4045,
+            "RightMargin": 712.5955,
+            "TopMargin": 297.2537,
+            "BottomMargin": 273.7463,
+            "Tag": 5,
+            "ActionTag": -790964732,
+            "Size": {
+              "X": 35.0,
+              "Y": 69.0
+            },
+            "Name": "Button_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_front.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_front.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_front.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 11,
+            "Scale9OriginY": 11,
+            "Scale9Width": 13,
+            "Scale9Height": 47,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 726.4441,
+              "Y": 309.2142
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7567,
+              "Y": 0.4831
+            },
+            "PreSize": {
+              "X": 0.0365,
+              "Y": 0.1078
+            },
+            "LeftMargin": 708.9441,
+            "RightMargin": 216.0559,
+            "TopMargin": 296.2858,
+            "BottomMargin": 274.7142,
+            "Tag": 6,
+            "ActionTag": 73198875,
+            "Size": {
+              "X": 35.0,
+              "Y": 69.0
+            },
+            "Name": "Button_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_start_button_close.png",
+              "Plist": "wupin.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_start_button_open.png",
+              "Plist": "wupin.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "fuben_start_button_close.png",
+              "Plist": "wupin.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 131,
+            "Scale9Height": 39,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 489.8682,
+              "Y": 105.353
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5103,
+              "Y": 0.1646
+            },
+            "PreSize": {
+              "X": 0.1677,
+              "Y": 0.0953
+            },
+            "LeftMargin": 409.3682,
+            "RightMargin": 389.6318,
+            "TopMargin": 504.147,
+            "BottomMargin": 74.853,
+            "Tag": 60,
+            "ActionTag": 157398965,
+            "Size": {
+              "X": 161.0,
+              "Y": 61.0
+            },
+            "Name": "Button_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 259.9595,
+              "Y": 158.8634
+            },
+            "Scale": {
+              "ScaleX": 1.0877,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2708,
+              "Y": 0.2482
+            },
+            "PreSize": {
+              "X": 0.4167,
+              "Y": 0.4219
+            },
+            "LeftMargin": 259.9595,
+            "RightMargin": 300.0405,
+            "TopMargin": 211.1366,
+            "BottomMargin": 158.8634,
+            "Tag": 61,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "skill_tubiao_baofengxue.jpg",
+                  "Plist": ""
+                },
+                "Scale9Width": 256,
+                "Scale9Height": 256,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 206.0,
+                  "Y": 132.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.515,
+                  "Y": 0.4889
+                },
+                "PreSize": {
+                  "X": 0.64,
+                  "Y": 0.9481
+                },
+                "LeftMargin": 78.0,
+                "RightMargin": 66.0,
+                "TopMargin": 10.0,
+                "BottomMargin": 4.0,
+                "Tag": 62,
+                "ActionTag": -1809700799,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "Name": "Image_15",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 806976458,
+            "Size": {
+              "X": 400.0,
+              "Y": 270.0
+            },
+            "Name": "Panel_2",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "skill_tubiao_baofengxue.jpg",
+        "wupin.plist",
+        "wupin.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}
